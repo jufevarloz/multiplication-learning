@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Multiplicaciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="control-buttons">
+            <button id="start-btn" class="blue-button">Iniciar</button>
+            <button id="pause-btn" class="purple-button">Pausar</button>
+            <button id="stop-btn" class="red-button">Detener</button>
+        </div>
+        <div id="question-view" class="view">
+            <div id="question-text">2 x 3 = ?</div>
+            <input type="text" id="answer" placeholder="Tu respuesta">
+            <button id="submit-btn">Enviar</button>
+            <div id="feedback"></div>
+            <div id="score">Puntos: 0</div>
+            <div id="timer">Tiempo restante: 5s</div>
+        </div>
+        <button id="learn-tables-btn" class="green-button">Aprender Tablas</button>
+    </div>
+
+    <script src="learning.js"></script>
+</body>
+</html>

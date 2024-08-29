@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Tablas de Multiplicar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <div id="multiplication-view" class="view active">
+            <div id="multiplication-text">1 x 1 = 1</div>
+            <button id="prev-btn">&#9664; Anterior</button>
+            <button id="next-btn">Siguiente &#9654;</button>
+        </div>
+        
+        <div id="quiz-view" class="view hidden">
+            <div id="question-text">2 x 2 = ?</div>
+            <input type="text" id="answer" placeholder="Tu respuesta">
+            <button id="submit-btn">Enviar</button>
+            <div id="feedback"></div>
+            <div id="score">Puntos: 0</div>
+            <div id="timer">Tiempo restante: 5s</div>
+        </div>
+    </div>
+
+</div>
+<a href="/quiz/learning.html">
+    <button id="start-test-btn" class="green-button">Iniciar Prueba</button>
+</a>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
